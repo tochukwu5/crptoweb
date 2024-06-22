@@ -46,6 +46,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+        <link rel="stylesheet" href="style1.css">
+
+
 
     <script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"> </script>
     <script src="./webpack-b4d90959a443142f.js" defer=""></script>
@@ -1610,9 +1613,34 @@
                                     .css-s3rs7q {
                                         min-width: 250px;
                                     }
+
+                                    .inj{
+                                    width:  65px;
+                                    height: 65px;
+                                }
                                 }
                             </style>
-                            <div class="css-s3rs7q">
+                            <style>
+                                .inj{
+                                    width:  90px;
+                                    height: 90px;
+                                    margin-right: 50px;
+                                }
+
+                                @media screen and (min-width: 48em) {
+                                    .inj{
+                                    width:  65px;
+                                    height: 65px;
+                                }
+                                }
+                                
+                            </style>
+
+                            <div class="inj"><img src="./image/inject.png" alt=""></div>
+
+                                
+
+                            <!-- <div class="css-s3rs7q">
                                 <style data-emotion="css 79elbk">
                                     .css-79elbk {
                                         position: relative;
@@ -1890,7 +1918,10 @@
 
 
                                 </div>
-                            </div>
+                            </div> -->
+
+
+
                             <style data-emotion="css qh0hli">
                                 .css-qh0hli {
                                     width: var(--chakra-sizes-full);
@@ -2035,7 +2066,7 @@
         <ul>
             <li class="meta d-flex"> 
                 <div class="meta1"> <img src="./image/metamask.svg" alt=""></div>             
-                <p>leap cos metamask</p>
+                <p> Metamask</p>
                 </li></ul>
       </div>
       
@@ -2279,17 +2310,23 @@
                         }
 
                         .inject{
-                            margin-top: 14px;
-                            width: 35px;
-                            height: 35px;
+                            margin-top: 3px;
+                            width: 40px;
+                            height: 40px;
+                            margin-left: 15px;
                             
                         }
-                        .injective{
 
-                        }
+                        @media screen and (min-width: 48em) {
+                                .inject {
+                                    margin-top: 14px;
+                                    
+                                }
+                            }
+                        
                     </style>
                     <div class="injective-div">
-                        <div class="inject"> <img class="injective" src="./image/pico2.png" alt=""> </div>
+                        <div class="inject"> <img class="injective" src="./image/ninja1.png" alt=""> </div>
                       
                         <h1 class="chakra-heading css-b45qrs">  Pickle wif Hat</h1>
                     </div>
@@ -2306,7 +2343,7 @@
                                 height: 250px;
                             }
                         }
-                    </style><img alt="NINJA token icon" src="./image/ninja.jpeg" class="chakra-image css-18aebch"
+                    </style><img alt="NINJA token icon" src="./image/pico2.png" class="chakra-image css-18aebch"
                         title="NINJA" />
                     <style data-emotion="css r45zb9">
                         .css-r45zb9 {
@@ -2324,7 +2361,7 @@
                             }
                         }
                     </style>
-                    <h1 class="chakra-heading css-r45zb9"> Matt Furie</h1>
+                    <h1 class="chakra-heading css-r45zb9"> $PICKLE</h1>
                     <style data-emotion="css 1bktcyh">
                         .css-1bktcyh {
                             text-align: center;
@@ -2339,7 +2376,7 @@
                             }
                         }
                     </style>
-                    <p class="chakra-text css-1bktcyh"> Community memecoin on Egochain inspired by the Matt Furie iconic characters.</p>
+                    <p class="chakra-text css-1bktcyh"> Community memecoin on Egochain inspired by the Matt Furie PICKLENOMICS.</p>
                     <style data-emotion="css 1rjdyjt">
                         .css-1rjdyjt {
                             text-align: center;
@@ -2528,7 +2565,7 @@
                             .css-nsd1md[data-hover] {
                                 background: slate.400;
                             }
-                        </style><button type="button" class="chakra-button css-nsd1md"
+                        </style><button type="button" class="chakra-button css-nsd1md bg-dark"
                             title="Copy contract address"><svg width="14" height="16" viewBox="0 0 14 16" fill="white"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -2542,7 +2579,7 @@
                         }
                     </style>
                     <p class="chakra-text css-xi606m">$PICKLE inspired by Matt Furie's iconic "boys club" comic characters - but with hat, is a memecoin built on Egochain for the community and by the community. Picklewifhat is not just a memecoin, we're forming a green synergy to form green candles and spice up the party.</p>
-                    <h2 class="chakra-heading css-1jb3vzl">Links</h2>
+                    <h2 class="chakra-heading css-1jb3vzl">$PICKLE CHART</h2>
                     <style data-emotion="css 1r0eoou">
                         .css-1r0eoou {
                             display: -webkit-box;
@@ -2591,14 +2628,17 @@
                                 background: var(--chakra-colors-gray-700);
                             }
                         </style>
-                        <a target="_blank" rel="noreferrer" class="chakra-link css-o9603x"
+                        <a onclick="return false"
+                        type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="(coming soon...)"
+                        target="_blank" rel="noreferrer" class="chakra-link css-o9603x"
                             href="#">Buy
                             on CMC</a>
                             
-                            <a target="_blank" rel="noreferrer" class="chakra-link css-o9603x"
+                            <a onclick="return false" type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="(coming soon...)"
+                            target="_blank" rel="noreferrer" class="chakra-link css-o9603x"
                             href="#">Buy on Coingecko</a>
                             
-                            <a
+                            <a onclick="return false" type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="(coming soon...)"
                             target="_blank" rel="noreferrer" class="chakra-link css-o9603x"
                             href="#">Buy on Dexscreener</a>
                             
@@ -2611,9 +2651,14 @@
                             href="https://coinhall.org/injective/inj1efdrt4s78gffnntlqlhcctu3h0ndsd0nr86edc">Buy on Coin
                             Hall</a> -->
                     </div>
-                    <div class="links css-1r0eoou"><a target="_blank" rel="noreferrer" class="chakra-link css-o9603x"
-                            href="https://t.me/+fbTlGhDms6k0NTlk">Telegram</a><a target="_blank" rel="noreferrer"
+                    <div class="links css-1r0eoou">
+                        <a target="_blank" rel="noreferrer" class="chakra-link css-o9603x"
+                            href="https://t.me/+fbTlGhDms6k0NTlk">Telegram</a>
+                            
+                            <a target="_blank" rel="noreferrer"
                             class="chakra-link css-o9603x" href="https://x.com/picklewifhat_">X (Twitter)</a>
+
+                           
                     </div>
                 </div>
             </div>
@@ -2662,7 +2707,7 @@
                     }
                 </style>
                 <div class="chakra-stack css-1n4dm7o">
-                    <p class="chakra-text css-0">Built with Love,  © Copyright 2024</p>
+                    <p class="chakra-text css-0">Built with 💟 for Egochain community</p>
                 </div>
             </div>
         </div><span></span><span id="__chakra_env" hidden=""></span>
