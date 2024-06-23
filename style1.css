@@ -47,13 +47,11 @@
 @media screen and (max-width: 48em) {
    .coming-soon-site .tooltip2{
     margin: 5px;
-    width: calc(100% / 3.5);
     text-wrap: wrap;
 } 
 .coming-soon-site{
     display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
+    flex-direction: column;
 }
 }
 
