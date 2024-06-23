@@ -1,27 +1,9 @@
 
-.coming-soon-site a{
-    margin-left:10px;
-}
-
-@media screen and (max-width: 48em) {
-   .coming-soon-site a{
-    margin: 5px;
-    width: calc(100% / 3.5);
-    text-wrap: wrap;
-} 
-.coming-soon-site{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-}
-}
-
-/* ================================================================== */
-
 
 .tooltip2 {
     position: relative;
     display: inline-block;
+    background-color: #11202e !important;
  }
  .tooltip2 .tooltiptext {
     visibility: hidden;
@@ -50,3 +32,39 @@
  .tooltip2:hover .tooltiptext {
     visibility: visible;
  }
+
+/* ================================================================== */
+
+
+
+
+.coming-soon-site .tooltip2{
+    margin-left:10px;
+    border-radius: 10px;
+    background-color: #727070;
+}
+
+@media screen and (max-width: 48em) {
+   .coming-soon-site .tooltip2{
+    margin: 5px;
+    width: calc(100% / 3.5);
+    text-wrap: wrap;
+} 
+.coming-soon-site{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+}
+
+
+
+/* ======================================================= */
+
+.css-1r0eoou a{
+    background-color: #11202e !important;
+}
+ .css-1r0eoou a:hover{
+   text-decoration: none;
+   
+}
