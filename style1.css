@@ -51,8 +51,14 @@
 } 
 .coming-soon-site{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
+
+   .css-xi606m{
+      margin-top: 15px;
+      /* text-align: left; */
+      
+   }
 }
 
 
