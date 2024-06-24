@@ -78,6 +78,9 @@
     margin: 5px;
     text-wrap: wrap;
 } 
+.Pickle-wif-Hat{
+   font-size: 1.5em;
+}
 .coming-soon-site{
     display: flex;
     flex-direction: row;
