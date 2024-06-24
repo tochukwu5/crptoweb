@@ -33,16 +33,45 @@
     visibility: visible;
  }
 
-/* ================================================================== */
-
-
-
 
 .coming-soon-site .tooltip2{
     margin-left:10px;
     border-radius: 10px;
     background-color: #727070;
+    box-shadow: -8px 5px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -8px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -8px 5px 5px 0px rgba(0,0,0,0.75);    
 }
+   .css-1r0eoou .cc{
+      box-shadow: -8px 5px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -8px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -8px 5px 5px 0px rgba(0,0,0,0.75); 
+   }
+   .css-1bktcyh{
+      margin-bottom: 0;
+   }
+ .css-1rjdyjt{
+   margin-top: -5px;
+ }
+
+   .contractTitle{
+      margin-bottom: 0px;
+   }
+   .picklechart{
+      margin-bottom: 1px;
+   }
+
+   .Pickle-wif-Hat{
+      margin-left: -3px;
+   }
+   .dropdown-item.active{
+      background: #616a77;
+   }
+   
+
+
+/* ===============================for mobile====================================== */
+
 
 @media screen and (max-width: 48em) {
    .coming-soon-site .tooltip2{
@@ -59,6 +88,18 @@
       /* text-align: left; */
       
    }
+
+   .coming-soon-site .tooltip2{
+      box-shadow: -4px 5px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -4px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 5px 5px 0px rgba(0,0,0,0.75);  
+  }
+     .css-1r0eoou .cc{
+      box-shadow: -4px 5px 5px 0px rgba(0,0,0,0.75);
+      -webkit-box-shadow: -4px 5px 5px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: -4px 5px 5px 0px rgba(0,0,0,0.75);
+     }
+
 }
 
 
@@ -72,3 +113,5 @@
    text-decoration: none;
    
 }
+
+
