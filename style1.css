@@ -67,11 +67,15 @@ margin-top: 50px;
       margin-left: -3px;
    }
    .dropdown-item.active{
-      background: #334c71;
+      background: #334c7150;
    }
-
+/* 
    ul.dropdown-menu-dark{
       background: #0b2640;
+   } */
+   
+   ul.dropdown-menu-dark{
+      background: #0b264059;
    }
 
   
