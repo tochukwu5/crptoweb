@@ -1,0 +1,51 @@
+
+.svgdropdown{
+    width: 30px;
+    padding: 0;
+    margin: 0;
+}
+.svgcontainer{
+background-color: #0a1922;
+border: 0;
+border:0;
+}
+
+.svgcontainer button:hover{
+    border: none;
+    background: none;
+}
+
+@media screen and (min-width: 48em) {
+    .inj{
+    width:  30px;
+    height: 30px;
+}
+#react-select-select-chain-placeholder{
+display: flex;
+}
+#react-select-select-chain-placeholder span{
+margin-left: 15px;
+}
+
+.css-h46u8s{
+    margin-top: 22px ;
+    margin-right: 10px;
+}
+}
+
+/* ==============mobile================= */
+@media screen and (max-width: 48em) {
+
+    .inj{
+    width:  33px;
+    height: 33px;
+    }
+    .inj-active{
+    display: none;
+    }
+
+    .css-h46u8s{
+        margin-top: 22px ;
+        margin-right: 10px;
+    }
+}

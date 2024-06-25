@@ -1,4 +1,6 @@
-
+.css-e30wp2{
+margin-top: 50px;
+}
 
 .tooltip2 {
     position: relative;
@@ -71,13 +73,34 @@
    ul.dropdown-menu-dark{
       background: #0b2640;
    }
-   
+
+  
+@media screen and (min-width: 48em) {
+    .inj{
+      width:  30px;
+      height: 30px;
+  }
+  #react-select-select-chain-placeholder{
+   display: flex;
+  }
+  #react-select-select-chain-placeholder span{
+   margin-left: -35px;
+  }
+}
 
 
 /* ===============================for mobile====================================== */
 
 
 @media screen and (max-width: 48em) {
+
+   .inj{
+      width:  33px;
+      height: 33px;
+  }
+  .inj-active{
+   display: none;
+  }
    .coming-soon-site .tooltip2{
     margin: 5px;
     text-wrap: wrap;
