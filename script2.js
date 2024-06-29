@@ -1,7 +1,7 @@
 //for buypage.html dark-theme toggle
 
 const toggler = document.getElementById('switcherid');
-let isSwitcher = false
+let isSwitcher = true
 
 toggler.onclick = function(){
   console.log('1123')
