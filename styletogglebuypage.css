@@ -1,0 +1,26 @@
+html,
+body {
+    /* background: linear-gradient(120deg, #07361f 0%, #024626 100%); */
+    background: linear-gradient(120deg, #07361f 0%, #15412c 100%);
+    scroll-behavior: smooth;
+}
+
+ul.dropdown-menu-dark{
+    background: #034e287c;
+ }
+
+ .dropdown-item.active{
+    background: #061a0c5b;
+ }
+
+ .svgcontainer{
+    background-color: #0b311a;
+  
+    }
+    .chakra-card__header{
+        background: rgb(1, 27, 11);
+    }
+.chakra-card__body{
+    background-color: #032716 !important;
+    
+}
